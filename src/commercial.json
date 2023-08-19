@@ -1,0 +1,101 @@
+{
+    "commercial": [
+            {
+                "Name": "Modern Office Space",
+                "Price": "$400,000",
+                "Location": "123 Business Ave, Metro Plaza",
+                "Images": "https://images.unsplash.com/photo-1586982599726-11708daaceca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+                "Type": "Office",
+                "Description": "A contemporary office space with modern facilities."
+            },
+            {
+                "Name": "Retail Storefront",
+                "Price": "$280,000",
+                "Location": "456 Shopping St, Commerce Center",
+                "Images": "https://cdn.houseplansservices.com/product/mvmuk3tm4acd15k78t9ic2n6b8/w800x533.jpg?v=2",
+                "Type": "Retail",
+                "Description": "A prime retail storefront in a bustling commercial area."
+            },
+            {
+                "Name": "Industrial Warehouse",
+                "Price": "$600,000",
+                "Location": "789 Industrial Rd, Industrial Park",
+                "Images": "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
+                "Type": "Industrial",
+                "Description": "A spacious industrial warehouse with loading docks."
+            },
+            {
+                "Name": "Co-Working Space",
+                "Price": "$150,000",
+                "Location": "101 Collaborate Blvd, Workspace Hub",
+                "Images": "https://cdn.houseplansservices.com/product/mvmuk3tm4acd15k78t9ic2n6b8/w800x533.jpg?v=2",
+                "Type": "Co-Working",
+                "Description": "A flexible co-working space for freelancers and startups."
+            },
+            {
+                "Name": "Restaurant Space",
+                "Price": "$320,000",
+                "Location": "234 Culinary St, Foodville",
+                "Images": "https://d28pk2nlhhgcne.cloudfront.net/assets/app/uploads/sites/3/2021/08/homebyme-homepage-gallery-9.jpg",
+                "Type": "Restaurant",
+                "Description": "A well-equipped space suitable for a restaurant."
+            },
+            {
+                "Name": "High-Rise Office Tower",
+                "Price": "$2,000,000",
+                "Location": "567 Corporate Plaza, Skyscraper District",
+                "Images": "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
+                "Type": "Office",
+                "Description": "A prestigious high-rise office tower with panoramic views."
+            },
+            {
+                "Name": "Commercial Land",
+                "Price": " $1,000,000",
+                "Location": "789 Commercial Dr, Business District",
+                "Images": "https://media.designcafe.com/wp-content/uploads/2022/07/15170350/luxury-home-design-on-budget.jpg",
+                "Type": "Land",
+                "Description": "A prime parcel of commercial land for development."
+            },
+            {
+                "Name": "Entertainment Venue",
+                "Price": "$800,000",
+                "Location": "345 Loft St, Cityscape",
+                "Images":"https://images.unsplash.com/photo-1586982599726-11708daaceca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+                "Type": "Entertainment",
+                "Description": "A versatile space suitable for events and performances."
+            },
+            {
+                "Name": "Medical Clinic",
+                "Price": "$350,000",
+                "Location": "678 Healthcare Rd, Medical Plaza",
+                "Images": "https://cdn.houseplansservices.com/product/mvmuk3tm4acd15k78t9ic2n6b8/w800x533.jpg?v=2",
+                "Type": "Medical",
+                "Description": "A well-designed clinic space for healthcare professionals."
+            },
+            {
+                "Name": "Tech Innovation Hub",
+                "Price": "$500,000",
+                "Location": "901 Beach Blvd, Shoreline",
+                "Images": "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
+                "Type": "Innovation",
+                "Description": "A collaborative space for tech startups and innovators."
+            },
+            {
+                "Name": "Event Venue",
+                "Price": "$400,000",
+                "Location": "234 Duplex Lane, Urbanville",
+                "Images": "https://images.unsplash.com/photo-1586982599726-11708daaceca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+                "Type": "Event",
+                "Description": "A versatile event venue suitable for various occasions."
+            },
+            {
+                "Name": "Commercial Condo",
+                "Price": "$180,000",
+                "Location": "567 Country Rd, Countryside",
+                "Images": "https://cdn.houseplansservices.com/product/mvmuk3tm4acd15k78t9ic2n6b8/w800x533.jpg?v=2",
+                "Type": "Commercial",
+                "Description": "A flexible commercial condo space for businesses."
+            }
+        
+    ]
+}

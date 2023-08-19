@@ -1,0 +1,69 @@
+{
+    "blogs": [
+      {
+        "id": 1,
+        "title": "Getting Started with React Hooks",
+        "date": "2023-08-01",
+        "description": "Learn the basics of React Hooks and how to use them to manage state and effects in functional components.",
+        "author": "John Doe",
+        "image": "https://neilpatel.com/wp-content/uploads/2017/09/blog-post-image-guide.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Mastering CSS Grid Layout",
+        "date": "2023-07-25",
+        "description": "Explore the power of CSS Grid Layout and create complex responsive layouts with ease.",
+        "author": "Jane Smith",
+        "image": "https://st2.depositphotos.com/4107269/7704/i/450/depositphotos_77040729-stock-photo-vacation-entertainment-concept.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Introduction to GraphQL",
+        "date": "2023-07-18",
+        "description": "Discover the benefits of GraphQL and how it revolutionizes data fetching in modern web applications.",
+        "author": "Michael Johnson",
+        "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsJTIwYmxvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 4,
+        "title": "Responsive Web Design Best Practices",
+        "date": "2023-07-10",
+        "description": "Learn essential tips and techniques for creating responsive websites that work well on all devices.",
+        "author": "Emily Brown",
+        "image": "https://images.unsplash.com/photo-1440778303588-435521a205bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHJhdmVsJTIwYmxvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 5,
+        "title": "JavaScript ES2022: What's New?",
+        "date": "2023-06-28",
+        "description": "Stay up to date with the latest features and improvements introduced in the ES2022 version of JavaScript.",
+        "author": "Alex Wilson",
+        "image": "https://st2.depositphotos.com/4107269/7704/i/450/depositphotos_77040729-stock-photo-vacation-entertainment-concept.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Creating Dynamic UIs with Vue.js",
+        "date": "2023-06-15",
+        "description": "Explore the fundamentals of Vue.js and build interactive and dynamic user interfaces.",
+        "author": "Sophia Lee",
+        "image": "https://neilpatel.com/wp-content/uploads/2017/09/blog-post-image-guide.jpg"
+      },
+      {
+        "id": 7,
+        "title": "The Importance of Code Comments",
+        "date": "2023-06-05",
+        "description": "Learn why writing meaningful code comments is essential for maintaining and collaborating on projects.",
+        "author": "David Clark",
+        "image": "https://images.unsplash.com/photo-1504609773096-104ff2c73ba4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsJTIwYmxvZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80"
+      },
+      {
+        "id": 8,
+        "title": "Secure Your Web Applications: A Guide to Web Security",
+        "date": "2023-05-20",
+        "description": "Explore common web security vulnerabilities and best practices for protecting your applications.",
+        "author": "Rachel Green",
+        "image": "https://st2.depositphotos.com/4107269/7704/i/450/depositphotos_77040729-stock-photo-vacation-entertainment-concept.jpg"
+      }
+    ]
+  }
+  

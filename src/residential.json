@@ -1,0 +1,100 @@
+{
+    "residential": [
+        {
+            "Name": "Modern Apartment",
+            "Price": "$180,000",
+            "Location": "789 Pine St, Urbanville",
+            "Images": "https://images.unsplash.com/photo-1586982599726-11708daaceca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+            "BHK": 2,
+            "Description": "A contemporary 2 BHK apartment with city views"
+        },
+        {
+            "Name": "Spacious Condo",
+            "Price": "$250,000",
+            "Location": "456 Oak Ave, Suburbia",
+            "Images": "https://cdn.houseplansservices.com/product/mvmuk3tm4acd15k78t9ic2n6b8/w800x533.jpg?v=2",
+            "BHK": "3",
+            "Description": "A roomy 3 BHK condo with modern amenities."
+        },
+        {
+            "Name": "Elegant Villa",
+            "Price": "$550,000",
+            "Location": "101 Hilltop Dr, Countryside",
+            "Images": "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
+            "BHK": "4",
+            "Description": "An upscale 4 BHK villa with a large garden."
+        },
+        {
+            "Name": "Cozy Cottage",
+            "Price": "$120,000",
+            "Location": "234 Meadow Ln, Rusticville",
+            "Images": "https://media.designcafe.com/wp-content/uploads/2022/07/15170350/luxury-home-design-on-budget.jpg",
+            "BHK": "1",
+            "Description": "A charming 1 BHK cottage in a serene setting."
+        },
+        {
+            "Name": "Luxury Penthouse",
+            "Price": "$800,000",
+            "Location": "567 Sky Tower, Metropolis",
+            "Images": "https://d28pk2nlhhgcne.cloudfront.net/assets/app/uploads/sites/3/2021/08/homebyme-homepage-gallery-9.jpg",
+            "BHK": "5",
+            "Description": "An extravagant 5 BHK penthouse with panoramic views."
+        },
+        {
+            "Name": "Suburban Townhouse",
+            "Price": "$320,000",
+            "Location": "789 Maple Rd, Townsville",
+            "Images": "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
+            "BHK": "3",
+            "Description": "A well-designed 3 BHK townhouse in a family-friendly neighborhood."
+        },
+        {
+            "Name": "Riverside Retreat",
+            "Price": "$280,000",
+            "Location": "123 Riverfront Ave, Waterside",
+            "Images": "https://cdn.houseplansservices.com/product/mvmuk3tm4acd15k78t9ic2n6b8/w800x533.jpg?v=2",
+            "BHK": "2",
+            "Description": "A peaceful 2 BHK retreat by the river."
+        },
+        {
+            "Name": "Urban Loft",
+            "Price": "$200,000",
+            "Location": "345 Loft St, Cityscape",
+            "Images":"https://media.designcafe.com/wp-content/uploads/2022/07/15170350/luxury-home-design-on-budget.jpg",
+            "BHK": "1",
+            "Description": "A trendy 1 BHK loft in the heart of the city."
+        },
+        {
+            "Name": "Mountain View Cabin",
+            "Price": "$150,000",
+            "Location": "678 Summit Rd, Mountainville",
+            "Images": "https://cdn.houseplansservices.com/product/mvmuk3tm4acd15k78t9ic2n6b8/w800x533.jpg?v=2",
+            "BHK": "2",
+            "Description": "A cozy 2 BHK cabin with stunning mountain views."
+        },
+        {
+            "Name": "Seaside Villa",
+            "Price": "$650,000",
+            "Location": "901 Beach Blvd, Shoreline",
+            "Images": "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg",
+            "BHK": "4",
+            "Description": "A luxurious 4 BHK villa overlooking the ocean."
+        },
+        {
+            "Name": "Sublime Duplex",
+            "Price": "$350,000",
+            "Location": "234 Duplex Lane, Urbanville",
+            "Images": "https://images.unsplash.com/photo-1586982599726-11708daaceca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80",
+            "BHK": "3",
+            "Description": "A modern 3 BHK duplex with stylish interiors."
+        },
+        {
+            "Name": "Tranquil Farmhouse",
+            "Price": "$280, 000",
+            "Location": "567 Country Rd, Countryside",
+            "Images": "https://d28pk2nlhhgcne.cloudfront.net/assets/app/uploads/sites/3/2021/08/homebyme-homepage-gallery-9.jpg",
+            "BHK": "2",
+            "Description": "A serene 2 BHK farmhouse with ample green space."
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "img": "https://images.unsplash.com/photo-1586982599726-11708daaceca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+        },
+        {
+            "id": 2,
+            "img": "https://cdn.houseplansservices.com/product/mvmuk3tm4acd15k78t9ic2n6b8/w800x533.jpg?v=2"
+        },
+        {
+            "id": 3,
+            "img": "https://www.bhg.com/thmb/H9VV9JNnKl-H1faFXnPlQfNprYw=/1799x0/filters:no_upscale():strip_icc()/white-modern-house-curved-patio-archway-c0a4a3b3-aa51b24d14d0464ea15d36e05aa85ac9.jpg"
+        }
+
+    ]
+}
