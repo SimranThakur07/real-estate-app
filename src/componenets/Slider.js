@@ -25,9 +25,33 @@ const Slider = () => {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-{/* <div className="slogan">
+<div className="form-container">
+<div className="slogan">
   <h1>Your Dream Home</h1>
-</div> */}
+</div>
+<form action="">
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Property Name</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Propert Name"/>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Property Location</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Propert Location"/>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Property Type</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Propert Type"/>
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Price Range</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Price"/>
+</div>
+<div class="mb-3">
+  <button className='propert-search'>SUBMIT</button>
+</div>
+</form>
+</div>
+
 </section>
    </>
   )

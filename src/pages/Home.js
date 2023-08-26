@@ -7,14 +7,16 @@ import Image from '../componenets/Image'
 import Blog from '../componenets/Blog'
 import Footer from '../componenets/Footer'
 import Testimonial from '../componenets/Testimonial'
+import PropertyType from '../componenets/PropertyType'
 
 const Home = () => {
   return (
     <>
     <Navbar/>
     <Slider/>
+    <PropertyType/>
     <Residential/>
-    <Commercial/>
+    {/* <Commercial/> */}
     <Image/>
     <Blog/>
     <Testimonial/>

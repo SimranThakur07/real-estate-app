@@ -1,67 +1,60 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import ProjectCard from './ProjectCard'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
-import { AiOutlineArrowLeft, AiOutlineArrowRight } from "react-icons/ai";
 import data from '../residential.json'
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
 const Residential = () => {
+  const [residentialData, setResidentialData] = useState([]) 
+ const url = 'https://bayut.p.rapidapi.com/properties/list?locationExternalIDs=5002%2C6020&purpose=for-rent&hitsPerPage=25&page=0&lang=en&sort=city-level-score&rentFrequency=monthly&categoryExternalID=4';
+
+  const getResidentialData = async () => {
+    try {
+     const response = await axios.get(url, {
+     headers: {
+		'X-RapidAPI-Key': '9051e218e9msh526a21aafe136c7p10594bjsneb4b3c161dd1',
+		'X-RapidAPI-Host': 'bayut.p.rapidapi.com'
+	}
+     })
+     setResidentialData(response?.data?.hits)
+     console.log(response?.data?.hits);
+     console.log(response?.data?.hits);
+  } catch (error) {
+      console.error(error);
+  }
+  
+
+  }
+  useEffect(() => {
+    getResidentialData()
+  }, [])
 
   return (
     <>
     <section className='residential-area'> 
         <div className="top-header">
-            <h2>Residential Project</h2>
+            <h2 style={{textAlign: "center"}}>Project Listing</h2>
+            <p className='text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur pariatur omnis est ut voluptatibus eius?</p>
         </div>
         <div className="resi_project">
-        <Swiper
-        slidesPerView="auto"
-        spaceBetween={10}
-        pagination={{
-          clickable: true,
-        }}
-        breakpoints={{
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 40,
-          },
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 50,
-          },
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      >
-        
+        <div class="row row-cols-1 row-cols-md-4 g-4">
           {
-            data?.residential?.map((i) => {
+            residentialData.slice(0, 8)?.map((i) => {
               return (
-              <SwiperSlide>
+                <div class="col">
               <ProjectCard
-              title={i.Name}
-              location={i.Location}
-              price={i.Price}
-              BHK={i.BHK}
-              image={i.Images}
-              propertyType="residential"
+               title={i?.agency?.name}
+               location={i?.agency?.product}
+               price={i.price}
+               BHK={i?.purpose}
+               image={i?.coverPhoto?.url}
+               purpose={i?.purpose}
+               propertyType="residential"
               />
-              </SwiperSlide>
+            </div>
              ) })
           }
-       
-        </Swiper>
-        </div>
-        <div className="slider-arrow">
-          <button><AiOutlineArrowLeft/></button>
-          <button><AiOutlineArrowRight/></button>
+       </div>
         </div>
         <Link to='/residential' className='view-more'>View More</Link>
     </section>

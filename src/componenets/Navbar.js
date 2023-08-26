@@ -1,12 +1,16 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { BiMenu } from "react-icons/bi";
 import { RxCross1 } from "react-icons/rx";
 import logo from '../assest/reallogo.png'
 import { IoIosArrowDown } from "react-icons/io";
+import { useDispatch, useSelector } from "react-redux";
+import { logout } from "../Reducer";
+
 const Navbar = () => {
   const [showSidebar, setShowSidebar] = useState(false);
-
+  const { isAuthenticated } = useSelector((state) => state.root);
+  const dispatch = useDispatch()
   const handleSidebar = () => {
     setShowSidebar(true);
   };
@@ -14,6 +18,10 @@ const Navbar = () => {
   const hideSidebar = () => {
     setShowSidebar(false);
   };
+
+const handleLogout = () => {
+  dispatch(logout())
+}
 
   return (
     <>
@@ -26,34 +34,62 @@ const Navbar = () => {
             <div className="nav-items">
               <ul className={!showSidebar ? "side_bar" : "sidebar"}>
                 <li>
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink to="/" 
+                   style={({ isActive }) => ({
+                    color: isActive ? "#00B98E" : "black",
+                  })}
+                  >Home</NavLink>
                 </li>
                 <li>
-                  <NavLink className="pro" to="/">
-                    Projects <IoIosArrowDown/>
+                  <NavLink className="pro" to="/residential" 
+                   style={({ isActive }) => ({
+                    color: isActive ? "#00B98E" : "black",
+                  })}
+                  >
+                    Projects
                   </NavLink>
-                  <ul className="drop-down ">
-                    <li>
-                      <NavLink to="/commercial">Commercial Projects</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to="/residential">Residential Projects</NavLink>
-                    </li>
-                  </ul>
+                </li>
+              
+                  <li>
+                  <NavLink to="/blogs"
+                   style={({ isActive }) => ({
+                    color: isActive ? "#00B98E" : "black",
+                  })}
+                  >Blogs</NavLink>
+                </li>
+                
+               
+                <li>
+                  <NavLink to="/about"
+                   style={({ isActive }) => ({
+                    color: isActive ? "#00B98E" : "black",
+                  })}
+                  >About</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/blogs">Blogs</NavLink>
+                  <NavLink to="/testimonial"
+                   style={({ isActive }) => ({
+                    color: isActive ? "#00B98E" : "black",
+                  })}
+                  >Testimonial</NavLink>
                 </li>
                 <li>
-                  <NavLink to="/about">About</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/testimonial">Testimonial</NavLink>
-                </li>
-                <li>
-                  <NavLink to="/contact">Contact</NavLink>
+                  <NavLink to="/contact"
+                   style={({ isActive }) => ({
+                    color: isActive ? "#00B98E" : "black",
+                  })}
+                  >Contact</NavLink>
                 </li>
               </ul>
+            </div>
+            <div className="buttons-area">
+              {
+                !isAuthenticated ? 
+                <Link to='/signin'>Sign In</Link>
+                : 
+                <Link to='/signin' onClick={handleLogout}>Logout</Link>
+              }
+
             </div>
             <div className="toggler">
               {!showSidebar ? (
